@@ -10,11 +10,11 @@ Hosted on Docker Hub here: https://hub.docker.com/r/racketyphilly5k/clone-hero-s
 
 Pull image using:
 
-```docker pull racketyphilly5k/clone-hero-server-final:latest```
+`docker pull racketyphilly5k/clone-hero-server-final:latest`
 
 Run image using:
 
-```docker run racketyphilly5k/clone-hero-server-final:latest```
+`docker run racketyphilly5k/clone-hero-server-final:latest`
 
 ## Startup Configuration
 
@@ -29,7 +29,7 @@ The inital setup configuration has the following:
 
 To change the inital setup configuration (name, password, IP, ports) of the Clone Hero server, you can do so with environment variables like below:
 
-```docker run -e NAME='Name of Server displayed in CH' -e PASS='password' -e IP='ip.of.server.if.not.default' -e PORT='portassigned' racketyphilly5k/clone-hero-server-final:latest```
+`docker run -e NAME='Name of Server displayed in CH' -e PASS='password' -e IP='ip.of.server.if.not.default' -e PORT='portassigned' racketyphilly5k/clone-hero-server-final:latest`
 
 You can also do so in Docker Desktop by adding environment variables using NAME, PASS, IP, and PORT as the names for each respective value.
 
